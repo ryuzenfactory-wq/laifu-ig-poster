@@ -1,0 +1,30 @@
+name: Refresh Instagram token (monthly)
+
+# 毎月1日 03:00 UTC にトークンを延長(約60日失効対策)。
+# 恒久Pageトークン運用なら本ワークフローは無効化してよい(SETUP.md 参照)。
+on:
+  schedule:
+    - cron: "0 3 1 * *"
+  workflow_dispatch: {}
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Refresh token
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          FB_APP_ID: ${{ secrets.FB_APP_ID }}
+          FB_APP_SECRET: ${{ secrets.FB_APP_SECRET }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GH_REPO: ${{ github.repository }}
+        run: python scripts/refresh_token.py

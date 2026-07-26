@@ -1,0 +1,51 @@
+name: Post Laifu carousel to Instagram
+
+# 週2本: 火・金 21:00 JST (=12:00 UTC)。各 run が FIFO でキュー最上段の未投稿を1本消化。
+on:
+  schedule:
+    - cron: "0 12 * * 2"   # Tue 21:00 JST
+    - cron: "0 12 * * 5"   # Fri 21:00 JST
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "1 でドライラン(投稿しない)"
+        required: false
+        default: "0"
+
+permissions:
+  contents: write          # posted_at 書き戻しCSVを commit するため
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Post carousel to Instagram
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          PUBLIC_BASE_URL: ${{ vars.PUBLIC_BASE_URL || format('https://raw.githubusercontent.com/{0}/main', github.repository) }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+          # QUEUE_FILE 未指定 = 当月の drafts/YYYY-MM-queue.csv を自動選択
+        run: python scripts/post_to_instagram.py
+
+      - name: Commit posted status back to CSV
+        if: ${{ github.event.inputs.dry_run != '1' }}
+        run: |
+          if [ -n "$(git status --porcelain drafts/)" ]; then
+            git config user.name "laifu-ig-bot"
+            git config user.email "actions@github.com"
+            git add drafts/
+            git commit -m "chore: mark posted [skip ci]"
+            git push
+          else
+            echo "変更なし(投稿対象なし)。commit スキップ。"
+          fi
