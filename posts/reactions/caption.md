@@ -6,6 +6,6 @@ Save this so you stop replying with just はい (hai = yes) 😂
 
 This is a little taste of Laifu, our app for daily (laifu) life Japanese ⚡. Everyday phrases with audio and chat examples, so you know exactly when to use them.
 
-📲 Download Laifu free on the App Store — link in bio.
+📲 Download Laifu free on the App Store. Link in our bio.
 
 #日本語 #learnjapanese #japaneseslang #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #nihongolearning
