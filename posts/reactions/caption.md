@@ -4,10 +4,8 @@ Here are 9 casual reactions to sound natural, not textbook 👉
 
 Save this so you stop replying with just はい (hai = yes) 😂
 
-We built Laifu, Japanese for daily (laifu) life ⚡, and this free phrasebook is a little taste of what's inside. Everyday phrases with romaji and chat examples, so you know exactly when to use them.
+This is a little taste of Laifu, our app for daily (laifu) life Japanese ⚡. Everyday phrases with audio and chat examples, so you know exactly when to use them.
 
-💬 Comment LAIFU and we'll DM you the free PDF.
-
-Heads up: grabbing the PDF also pops you on the Laifu waitlist, so you're first in line when the app launches on iOS. Not into emails? Unsubscribe anytime, no hard feelings.
+📲 Download Laifu free on the App Store — link in bio.
 
 #日本語 #learnjapanese #japaneseslang #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #nihongolearning
