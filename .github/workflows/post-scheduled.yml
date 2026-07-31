@@ -1,11 +1,10 @@
 name: Post Laifu carousel to Instagram
 
-# 週3本: 月・水・金 21:00 JST (=12:00 UTC)。各 run が FIFO でキュー最上段の未投稿を1本消化。
+# 2日に1回: 隔日(奇数日 1,3,5,…,31) 21:00 JST (=12:00 UTC)。各 run が FIFO で
+# キュー最上段の未投稿を1本消化。月替わりで最大1日ズレる程度は許容(31→翌1日)。
 on:
   schedule:
-    - cron: "0 12 * * 1"   # Mon 21:00 JST
-    - cron: "0 12 * * 3"   # Wed 21:00 JST
-    - cron: "0 12 * * 5"   # Fri 21:00 JST
+    - cron: "0 12 */2 * *"   # every other day, 21:00 JST
   workflow_dispatch:
     inputs:
       dry_run:
