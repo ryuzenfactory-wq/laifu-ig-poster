@@ -1,4 +1,4 @@
-When a conversation gets away from you, these 3 phrases are your lifeline 👉
+When a conversation gets away from you, these 5 phrases are your lifeline 👉
 
 Ask if anyone speaks English, ask them to say it again, or just ask them to slow down. No shame in it, natives use these on each other too.
 

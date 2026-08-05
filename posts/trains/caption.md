@@ -1,4 +1,4 @@
-Japan runs on trains, and these 3 phrases make the whole system a lot less scary 👉
+Japan runs on trains, and these 7 phrases make the whole system a lot less scary 👉
 
 Where to buy an IC card, where to transfer, and the big one every night out depends on: what time is the last train? Save this before your first ride.
 
