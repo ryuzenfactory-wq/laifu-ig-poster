@@ -21,12 +21,26 @@ NH の `nh-threads-poster` の骨組みを IG カルーセル用に移植した�
 列: `date | time | slug | caption | status | posted_at`
 
 - `date` / `time` … あなたがスケジュールを把握するための **表示用ラベル**（投稿選定には使わない）
-- `slug` … `posts/<slug>/` に画像（`1.jpg,2.jpg,…` 数値順）とキャプションがある
+- `slug` … `posts/<slug>/` に画像（`1.jpg,2.jpg,…` 数値順）または動画とキャプションがある
 - `caption` … 空なら `posts/<slug>/caption.md` を使う
 - `status` … `draft/hold/skip/保留/スキップ/下書き` はスキップ。**空欄＝承認**。
 - `posted_at` … 投稿後に Actions が書き戻す。埋まってる行は投稿済み。
 
-## 画像の公開URL（重要）
+## カルーセルかリールかは posts/<slug>/ の中身で決まる
+
+同じキュー・同じ cron のまま、**フォルダに動画を置けばリールになる**。CSV に列は足さない。
+
+| `posts/<slug>/` の中身 | 投稿される形 |
+|---|---|
+| `1.jpg, 2.jpg, …` | カルーセル（1枚なら単一画像） |
+| `reel.mp4`（+ 任意で `cover.jpg`） | **リール**（`share_to_feed=true` でフィードにも出る） |
+
+- 動画は `.mp4` / `.mov`。**1フォルダ1本**（複数あると先頭だけ使い、警告を出す）
+- `cover.jpg` は表紙。無ければ IG が先頭フレームから自動生成する。
+  カルーセル側では `cover.jpg` を**スライドに混ぜない**ので、表紙だけ別画像にしたい時も安全
+- 動画は IG 側の変換に数分かかる。画像は最大60秒待ちだが、**リールは最大10分**待つ
+
+## 画像・動画の公開URL（重要）
 
 IG Graph API は**ローカル画像を受け取れない**。各スライドは公開HTTPS URLが必須。
 既定では **repo にコミットした画像を raw URL で配信**する:
@@ -52,11 +66,11 @@ python scripts/post_to_instagram.py
 
 ## ファイル
 
-- `scripts/post_to_instagram.py` … 投稿本体（単一画像 / 2〜10枚カルーセル 両対応）
+- `scripts/post_to_instagram.py` … 投稿本体（単一画像 / 2〜10枚カルーセル / リール動画）
 - `scripts/refresh_token.py` … 月次トークンリフレッシュ
 - `.github/workflows/post-scheduled.yml` … cron 火・金 21:00 JST（手動実行＋ドライランも可）
 - `.github/workflows/refresh-token.yml` … 毎月1日
-- `posts/<slug>/` … カルーセル画像 + caption.md
+- `posts/<slug>/` … カルーセル画像 or リール動画 + caption.md
 - `drafts/YYYY-MM-queue.csv` … 投稿キュー
 
 セットアップは [SETUP.md](SETUP.md)。

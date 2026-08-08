@@ -8,9 +8,11 @@ Instagram Graph API で公開する。nh-threads-poster の骨組みを IG カ�
 流れ:
 1. キュー CSV を読む (drafts/YYYY-MM-queue.csv)
 2. FIFO で次の未投稿カルーセルを1本選ぶ(status が hold 系 / posted_at 済み はスキップ)
-3. posts/<slug>/ の画像(1.jpg,2.jpg,...)を集め、各スライドを子コンテナ化
-   (is_carousel_item=true, image_url=<公開URL>) → 親コンテナ(CAROUSEL) → publish
-   ※画像1枚だけなら単一画像投稿。2〜10枚ならカルーセル。
+3. posts/<slug>/ の中身で投稿種別が決まる:
+   - .mp4/.mov がある → **リール**(media_type=REELS, video_url=<公開URL>) を1本。
+     cover.jpg があれば表紙に使う。動画は変換に数分かかるので最大10分待つ
+   - 画像だけ → 各スライドを子コンテナ化 (is_carousel_item=true, image_url=<公開URL>)
+     → 親コンテナ(CAROUSEL) → publish。1枚なら単一画像投稿、2〜10枚ならカルーセル
 4. その行に posted_at と status=posted を書き戻す(Actions が CSV を commit)
 
 IG API はローカル画像を受け取れない。各スライドは **公開HTTPS URL** が必須。
@@ -45,6 +47,8 @@ GRAPH = "https://graph.facebook.com/v21.0"
 HOLD = {"draft", "hold", "skip", "保留", "スキップ", "下書き"}
 FIELDNAMES = ["date", "time", "slug", "caption", "status", "posted_at"]
 IMG_EXTS = (".jpg", ".jpeg", ".png")
+VIDEO_EXTS = (".mp4", ".mov")
+COVER_NAMES = ("cover.jpg", "cover.jpeg", "cover.png")
 
 DRY_RUN = os.environ.get("DRY_RUN", "") == "1"
 
@@ -91,15 +95,39 @@ def _natural_key(name):
     return (0, int(m.group(1))) if m else (1, name.lower())
 
 
-def collect_images(posts_dir, slug):
+def collect_media(posts_dir, slug):
+    """posts/<slug>/ の中身から投稿種別を決める。
+
+    動画(.mp4/.mov)が1つでもあれば **リール**扱いで、その動画1本を投稿する。
+    無ければ従来どおり画像のカルーセル。cover.jpg があればリールの表紙に使う
+    (無ければ IG が動画の先頭フレームから自動生成する)。
+
+    returns ("reel", [動画path], cover_path or None)
+         or ("images", [画像path...], None)
+    """
     folder = os.path.join(posts_dir, slug)
     if not os.path.isdir(folder):
-        raise FileNotFoundError(f"カルーセル画像フォルダが無い: {folder}")
-    files = [f for f in os.listdir(folder) if f.lower().endswith(IMG_EXTS)]
-    files.sort(key=_natural_key)
-    if not files:
-        raise FileNotFoundError(f"画像が1枚も無い: {folder}")
-    return [os.path.join(folder, f) for f in files]
+        raise FileNotFoundError(f"投稿フォルダが無い: {folder}")
+    names = os.listdir(folder)
+
+    videos = [f for f in names if f.lower().endswith(VIDEO_EXTS)]
+    if videos:
+        videos.sort(key=_natural_key)
+        if len(videos) > 1:
+            print(f"  [警告] 動画が{len(videos)}本ある → 先頭の {videos[0]} だけ投稿",
+                  file=sys.stderr)
+        cover = next((f for f in names if f.lower() in COVER_NAMES), None)
+        return "reel", [os.path.join(folder, videos[0])], (
+            os.path.join(folder, cover) if cover else None
+        )
+
+    # カルーセルでは cover.jpg は表紙用なのでスライドに混ぜない
+    imgs = [f for f in names
+            if f.lower().endswith(IMG_EXTS) and f.lower() not in COVER_NAMES]
+    imgs.sort(key=_natural_key)
+    if not imgs:
+        raise FileNotFoundError(f"画像も動画も無い: {folder}")
+    return "images", [os.path.join(folder, f) for f in imgs], None
 
 
 def public_url(base, local_path):
@@ -131,7 +159,11 @@ def _post(path, data):
 
 
 def wait_finished(container_id, token, tries=20, delay=3):
-    """コンテナが FINISHED になるまで待つ(IG は処理完了前に publish すると失敗する)。"""
+    """コンテナが FINISHED になるまで待つ(IG は処理完了前に publish すると失敗する)。
+
+    画像は数秒で終わるが**動画は変換に数分かかる**ので、リールは呼び出し側が
+    tries/delay を伸ばして渡すこと。
+    """
     if DRY_RUN:
         return
     for _ in range(tries):
@@ -166,6 +198,19 @@ def create_single(ig_user_id, token, image_url, caption):
     })
 
 
+def create_reel(ig_user_id, token, video_url, caption, cover_url=None):
+    data = {
+        "media_type": "REELS",
+        "video_url": video_url,
+        "caption": caption,
+        "share_to_feed": "true",
+        "access_token": token,
+    }
+    if cover_url:
+        data["cover_url"] = cover_url
+    return _post(f"{ig_user_id}/media", data)
+
+
 def create_carousel(ig_user_id, token, child_ids, caption):
     return _post(f"{ig_user_id}/media", {
         "media_type": "CAROUSEL",
@@ -180,6 +225,15 @@ def publish(ig_user_id, token, creation_id):
         "creation_id": creation_id,
         "access_token": token,
     })
+
+
+def post_reel(ig_user_id, token, video_url, caption, cover_url=None):
+    """リールを1本公開する。動画は変換待ちが長いので最大10分まで粘る。"""
+    cid = create_reel(ig_user_id, token, video_url, caption, cover_url)
+    print(f"    リールコンテナ: {cid}(変換待ち、最大10分)")
+    wait_finished(cid, token, tries=60, delay=10)
+    time.sleep(3)  # Meta推奨: publish 前に少し待つ
+    return publish(ig_user_id, token, cid)
 
 
 def post_carousel(ig_user_id, token, image_urls, caption):
@@ -229,17 +283,25 @@ def main():
         return 0
 
     slug = str(rec["slug"]).strip()
-    images = collect_images(posts_dir, slug)
-    urls = [public_url(base or "https://PUBLIC_BASE_URL", p) for p in images]
+    kind, files, cover = collect_media(posts_dir, slug)
+    fallback = base or "https://PUBLIC_BASE_URL"
+    urls = [public_url(fallback, p) for p in files]
+    cover_url = public_url(fallback, cover) if cover else None
     caption = resolve_caption(rec, posts_dir, slug)
 
-    print(f"投稿対象: slug='{slug}' スライド{len(images)}枚 (CSV {idx + 2} 行目, {path})"
+    label = "リール動画1本" if kind == "reel" else f"スライド{len(files)}枚"
+    print(f"投稿対象: slug='{slug}' {label} (CSV {idx + 2} 行目, {path})"
           + ("  [DRY_RUN]" if DRY_RUN else ""))
     for u in urls:
-        print(f"  image_url: {u}")
+        print(f"  {'video_url' if kind == 'reel' else 'image_url'}: {u}")
+    if cover_url:
+        print(f"  cover_url: {cover_url}")
     print(f"  caption ({len(caption)}字): {caption[:80]}{'…' if len(caption) > 80 else ''}")
 
-    media_id = post_carousel(ig_user_id, token, urls, caption)
+    if kind == "reel":
+        media_id = post_reel(ig_user_id, token, urls[0], caption, cover_url)
+    else:
+        media_id = post_carousel(ig_user_id, token, urls, caption)
     print(f"投稿成功: media id = {media_id}")
 
     rows[idx]["posted_at"] = datetime.now(JST).strftime("%Y-%m-%d %H:%M JST")
