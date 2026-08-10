@@ -1,6 +1,6 @@
-So this is what our Laifu team has been quietly building 👀
+1,298 Japanese phrases for the moments a textbook skips 👀
 
-Laifu is a Japanese app for daily life. Not textbook grammar drills, the actual phrases you'll use when you live in, travel to, or study in Japan. Chat-style examples, audio, pronunciation practice, and full real-life scenes (yes, including the izakaya).
+Laifu is a Japanese app for daily life. Not grammar drills, the phrases you'll use when you live in, travel to, or study in Japan. Chat-style examples, audio on every phrase, pronunciation practice, and 57 full real-life scenes (yes, including the izakaya).
 
 It's live now, and the first phrasebook is free to get you started.
 
