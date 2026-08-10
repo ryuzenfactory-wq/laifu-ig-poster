@@ -8,4 +8,4 @@ This is what it looks like inside Laifu, our app for daily (laifu) life ⚡. The
 
 Japanese for daily (laifu) life.
 
-#日本語 #learnjapanese #japanesephrases #ramen #japanesefood #studyjapanese #nihongo #japanlife #japaneselanguage
+#日本語 #learnjapanese #japanesephrases #ramen #japanesefood #studyjapanese #nihongo #japanlife #japaneselanguage #livinginjapan #studyinjapan

@@ -8,4 +8,4 @@ These come out of Laifu, our app for daily (laifu) life ⚡. Tap a phrase for ro
 
 Japanese for daily (laifu) life.
 
-#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #japantravel #vegetarianjapan #japanfood #traveljapan
+#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #vegetarianjapan #japanfood #livinginjapan #movingtojapan

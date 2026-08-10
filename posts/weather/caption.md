@@ -8,4 +8,4 @@ Laifu is the app we build for daily (laifu) life. Each phrase brings romaji, aud
 
 Japanese for daily (laifu) life.
 
-#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #japantravel #smalltalk #casualjapanese #japantips
+#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #smalltalk #casualjapanese #japantips #movingtojapan #lifeinjapan

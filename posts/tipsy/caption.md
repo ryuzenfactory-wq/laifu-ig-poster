@@ -8,4 +8,4 @@ These come out of Laifu, our app for daily (laifu) life ⚡. Tap a phrase for ro
 
 Japanese for daily (laifu) life.
 
-#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #japantravel #japaneseslang #japannightlife #casualjapanese
+#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #japaneseslang #japannightlife #casualjapanese #livinginjapan #studyinjapan

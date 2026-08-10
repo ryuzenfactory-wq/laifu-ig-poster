@@ -8,4 +8,4 @@ It's live now, and 917 of the 1,298 phrases are free.
 
 Japanese for daily (laifu) life.
 
-#日本語 #learnjapanese #japanesephrases #japanlife #studyjapanese #nihongo #japan #japaneselanguage #japanesefortravelers #movingtojapan
+#日本語 #learnjapanese #japanesephrases #japanlife #studyjapanese #nihongo #japan #japaneselanguage #movingtojapan #lifeinjapan

@@ -8,4 +8,4 @@ Pulled from Laifu, our app for daily (laifu) life ⚡. Phrases come with romaji,
 
 Japanese for daily (laifu) life.
 
-#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #japantravel #japaneseculture #japantips #casualjapanese
+#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #japaneseculture #japantips #casualjapanese #livinginjapan #movingtojapan

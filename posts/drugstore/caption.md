@@ -8,4 +8,4 @@ We make Laifu, an app for daily (laifu) life. Every phrase has romaji, audio, an
 
 Japanese for daily (laifu) life.
 
-#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #japantravel #drugstore #japanpharmacy #traveljapan
+#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #drugstore #japanpharmacy #lifeinjapan #livinginjapan

@@ -8,4 +8,4 @@ This is a little taste of Laifu, our app for daily (laifu) life ⚡. Every line 
 
 Japanese for daily (laifu) life.
 
-#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #japantravel #linejapan #casualjapanese #japanesephrases
+#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #linejapan #casualjapanese #livinginjapan #studyinjapan
