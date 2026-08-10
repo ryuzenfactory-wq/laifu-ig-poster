@@ -1,6 +1,6 @@
-Vegetarian or got allergies? Eat out in Japan with zero stress 👉
+Vegetarian or got allergies? Here's how to say it clearly in Japanese 👉
 
-Say you're vegetarian, that you have allergies, or ask for no pork. Simple lines that keep your meal safe.
+Say you're vegetarian, that you have allergies, or ask for no pork. Simple lines that get your restrictions across. Always double-check with the staff.
 
 This is a little taste of Laifu, our app for daily (laifu) life ⚡. Every phrase comes with romaji, audio, and chat examples, so you know exactly when to use them.
 

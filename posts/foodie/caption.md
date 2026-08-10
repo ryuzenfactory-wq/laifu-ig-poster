@@ -1,6 +1,6 @@
 Say more than just 'oishii' 👉
 
-おいしい (oishii), うまっ (umaa), やばい (yabai). Sound like you actually mean it when the food hits.
+おいしい (oishii), うまっ (uma!), やばい (yabai). Sound like you actually mean it when the food hits.
 
 This is a little taste of Laifu, our app for daily (laifu) life ⚡. Every phrase comes with romaji, audio, and chat examples, so you know exactly when to use them.
 

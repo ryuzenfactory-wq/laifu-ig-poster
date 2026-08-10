@@ -1,4 +1,4 @@
-Getting sick abroad is scary. Here's how to walk into a Japanese clinic 👉
+Getting sick in Japan is stressful. Here's how to walk into a Japanese clinic 👉
 
 First visit with no appointment, telling them your fever won't break, paying by card. Short lines a doctor will actually understand.
 
