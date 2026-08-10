@@ -2,7 +2,7 @@ Sick in Japan and lost in a drugstore? 👉
 
 Ask for a sore throat fix, a non-drowsy cold medicine, SPF50, some throat candy. 12 phrases that get you out of the ドラッグストア (doraggu sutoa) with exactly what you need.
 
-This is a little taste of Laifu, our app for daily (laifu) life ⚡. Every phrase comes with romaji, audio, and chat examples, so you know exactly when to use them.
+We make Laifu, an app for daily (laifu) life. Every phrase has romaji, audio, and a chat example, because knowing the words is only half of it.
 
 📲 Download Laifu free on the App Store. Link in our bio.
 

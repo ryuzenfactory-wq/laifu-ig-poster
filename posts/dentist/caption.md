@@ -2,9 +2,9 @@ Tooth suddenly acting up in Japan? 👉
 
 Get seen fast, say cold things make it sting, tell them your filling came out. The lines you will want the second it hurts.
 
-This is a little taste of Laifu, our app for daily (laifu) life ⚡. Every phrase comes with romaji, audio, and chat examples, so you know exactly when to use them.
+Laifu is the app we build for daily (laifu) life. Each phrase brings romaji, audio, and a chat example along with it.
 
-📲 Download Laifu free on the App Store. Link in our bio.
+📲 Grab Laifu free on the App Store. Link in our bio.
 
 Japanese for daily (laifu) life.
 

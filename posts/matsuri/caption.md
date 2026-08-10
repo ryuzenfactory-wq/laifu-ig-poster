@@ -2,9 +2,9 @@ Catch the last of summer in Japan 👉
 
 Ask when the fireworks are, grab some shaved ice, hit a beer garden. Late-summer phrases for festival season.
 
-This is a little taste of Laifu, our app for daily (laifu) life ⚡. Every phrase comes with romaji, audio, and chat examples, so you know exactly when to use them.
+Laifu is our app for daily (laifu) life. Every phrase in it carries romaji, audio you can play, and a short chat that shows where it fits.
 
-📲 Download Laifu free on the App Store. Link in our bio.
+📲 Laifu is free on the App Store. Link in our bio.
 
 Japanese for daily (laifu) life.
 

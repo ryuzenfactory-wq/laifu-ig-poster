@@ -2,7 +2,7 @@ Dragged to karaoke in Japan? Here's your survival kit 👉
 
 Suggest カラオケ (karaoke), put someone on the spot with 歌って！ (utatte! = sing one!), or dodge the mic with 音痴だから (onchi dakara).
 
-This is a little taste of Laifu, our app for daily (laifu) life ⚡. Every phrase comes with romaji, audio, and chat examples, so you know exactly when to use them.
+We make Laifu, an app for daily (laifu) life. Every phrase has romaji, audio, and a chat example, because knowing the words is only half of it.
 
 📲 Download Laifu free on the App Store. Link in our bio.
 

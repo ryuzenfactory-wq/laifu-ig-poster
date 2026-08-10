@@ -2,9 +2,9 @@ When things go wrong in Japan, these conversations save you 👉
 
 Lost your wallet, lost your way, or just lost the thread. Swipe through the actual back-and-forth so you're not stuck when it counts. (Good news: Japan is famous for returning wallets.)
 
-This is a little taste of Laifu, our app for daily (laifu) life ⚡. Every line has romaji, audio, and the full back-and-forth, so you know what they'll say back.
+This is what it looks like inside Laifu, our app for daily (laifu) life ⚡. The whole back-and-forth, with romaji and audio on every line.
 
-📲 Download Laifu free on the App Store. Link in our bio.
+📲 Grab Laifu free on the App Store. Link in our bio.
 
 Japanese for daily (laifu) life.
 

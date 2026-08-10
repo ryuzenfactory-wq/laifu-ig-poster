@@ -2,9 +2,9 @@ Want to actually make a Japanese friend, not just order coffee? Here are 12 phra
 
 Drop a compliment, react like a local (マジで maji de = for real?), ask about them, then swap contacts. That's the whole arc from stranger to friend.
 
-This is a little taste of Laifu, our app for daily (laifu) life ⚡. Every phrase comes with romaji, audio, and chat examples, so you know exactly when to use them.
+Laifu is the app we build for daily (laifu) life. Each phrase brings romaji, audio, and a chat example along with it.
 
-📲 Download Laifu free on the App Store. Link in our bio.
+📲 Grab Laifu free on the App Store. Link in our bio.
 
 Japanese for daily (laifu) life.
 
