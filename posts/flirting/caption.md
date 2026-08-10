@@ -1,6 +1,6 @@
 Want to shoot your shot in Japanese? Watch it play out 👉
 
-From 'do you have a girlfriend?' to 'wanna grab food?' to 'honestly, I might like you.' Real chats, the way it actually goes.
+From 'do you have a girlfriend?' to 'wanna grab food?' to 'honestly, I might like you.' Chat by chat, the way these usually go.
 
 This is a little taste of Laifu, our app for daily (laifu) life ⚡. Every line has romaji, audio, and the full back-and-forth, so you know what they'll say back.
 
