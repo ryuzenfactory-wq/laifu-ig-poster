@@ -1,6 +1,6 @@
 # laifu-ig-poster
 
-Laifu の Instagram カルーセルを **毎週2本、自動投稿**。月額 **$0**（Instagram Graph API + GitHub Actions 無料枠）。
+Laifu の Instagram カルーセルを **1日おきに1本、自動投稿**。月額 **$0**（Instagram Graph API + GitHub Actions 無料枠）。
 NH の `nh-threads-poster` の骨組みを IG カルーセル用に移植したもの。
 
 投稿先: **@laifu_japanese**（IG ビジネスアカウント）
@@ -10,7 +10,7 @@ NH の `nh-threads-poster` の骨組みを IG カルーセル用に移植した�
 ```
 コンテンツ制作:  /laifu-carousel でスライド生成 → posts/<slug>/1.jpg..N.jpg + caption.md を push
 キュー登録:      drafts/YYYY-MM-queue.csv に行を足す(status を空=承認 or draft=保留)
-火・金 21:00 JST: キュー最上段の未投稿を1本 → 子コンテナ→CAROUSEL→publish → posted_at 書き戻し commit
+1日おき 21:00 JST: キュー最上段の未投稿を1本 → 子コンテナ→CAROUSEL→publish → posted_at 書き戻し commit
 毎月1日:         長期トークンを自動リフレッシュ(約60日失効対策)
 ```
 
@@ -68,7 +68,9 @@ python scripts/post_to_instagram.py
 
 - `scripts/post_to_instagram.py` … 投稿本体（単一画像 / 2〜10枚カルーセル / リール動画）
 - `scripts/refresh_token.py` … 月次トークンリフレッシュ
-- `.github/workflows/post-scheduled.yml` … cron 火・金 21:00 JST（手動実行＋ドライランも可）
+- `.github/workflows/post-scheduled.yml` … cron `0 12 */2 * *` = **1日おき 21:00 JST**
+  （手動実行＋ドライランも可）。⚠️ ここは長らく「火・金」と書かれていたが実体と違い、
+  2026-08-22 に次の投稿日を読み違える原因になった。cron 式が正。
 - `.github/workflows/refresh-token.yml` … 毎月1日
 - `posts/<slug>/` … カルーセル画像 or リール動画 + caption.md
 - `drafts/YYYY-MM-queue.csv` … 投稿キュー
