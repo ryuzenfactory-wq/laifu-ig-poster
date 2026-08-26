@@ -1,11 +1,13 @@
-You didn't catch a word of that. Now what? 👉
+You didn't catch it. Now what? 👉
 
-The gap nobody prepares you for is not speaking, it's the moment after someone answers you. 7 phrases that buy you a second try instead of a panicked nod.
+もう一度言ってください (mou ichido itte kudasai), もう少しゆっくり (mou sukoshi yukkuri), 書いてもらえますか (kaite moraemasu ka). 7 ways to ask someone to run that by you again.
 
-We make Laifu, an app for daily (laifu) life. Real phrases with audio and a chat example, because knowing the words is only half of it.
+Nobody expects you to get it first time. The people who improve fastest are just the ones who ask.
 
-📲 Download Laifu free on the App Store. Link in our bio.
+Pulled from Laifu, our app for daily (laifu) life ⚡. Phrases come with romaji, clear audio, and a short conversation, so the timing sticks too.
+
+📲 Laifu is free on the App Store. Link in our bio.
 
 Japanese for daily (laifu) life.
 
-#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #japaneseforbeginners #studyjapanese #japanesepractice #lifeinjapan #livinginjapan
+#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #japanesetips #japaneseforbeginners #speakjapanese

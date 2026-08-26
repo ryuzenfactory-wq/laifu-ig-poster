@@ -1,11 +1,13 @@
-Trying clothes on in Japan, without the mime act 👉
+Trying clothes on in Japan, without the guessing 👉
 
-Ask for the fitting room, learn the three-item rule, get a size up, and say whether it fits. 6 phrases for 試着 (shichaku).
+これ、試着できますか (kore, shichaku dekimasu ka), 試着は3点までです (shichaku wa san-ten made desu), ちょうどいいです (choudo ii desu).
 
-Laifu is our app for daily (laifu) life. Romaji, audio, and a chat example on every phrase, so you hear how it actually lands.
+Three items at a time is a normal rule, so don't be thrown when you hear it. And ちょうどいいです is the line you want when it fits.
 
-📲 Download Laifu free on the App Store. Link in our bio.
+Laifu is our app for daily (laifu) life. Every phrase in it carries romaji, audio you can play, and a short chat that shows where it fits.
+
+📲 Laifu is free on the App Store. Link in our bio.
 
 Japanese for daily (laifu) life.
 
-#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #japanshopping #japanfashion #japantravel #lifeinjapan #livinginjapan
+#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #japanshopping #shoppinginjapan #japanfashion

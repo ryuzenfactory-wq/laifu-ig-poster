@@ -1,11 +1,13 @@
-First onsen? Here's what to say, and what the sign says 👉
+First onsen? Here's the whole run, front desk to hair dryer 👉
 
-Tattoos, lockers, かけ湯 before you get in, and the cold bath question everyone thinks but nobody asks. 12 phrases for your first 温泉 (onsen).
+タトゥーは大丈夫ですか (tatuu wa daijoubu desu ka), 入る前にかけ湯をしてください (hairu mae ni kakeyu wo shite kudasai), ちょうどいい温度ですね (choudo ii ondo desu ne).
 
-We make Laifu, an app for daily (laifu) life. Every phrase carries romaji, audio, and a short chat that shows where it fits.
+The rules feel intimidating from outside and take about a minute to learn. Rinse before you get in, tie long hair up, no photos. That's most of it.
 
-📲 Download Laifu free on the App Store. Link in our bio.
+We make Laifu, an app for daily (laifu) life. Knowing the words is only half of it, so every phrase comes with romaji, audio, and a real conversation.
+
+📲 Laifu is free on the App Store. Link in our bio.
 
 Japanese for daily (laifu) life.
 
-#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #onsen #温泉 #japantravel #japantrip #lifeinjapan #japanesebath
+#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #onsen #温泉 #japantravel #japanculture

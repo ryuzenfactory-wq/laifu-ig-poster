@@ -1,11 +1,13 @@
-Six phrases we hope you never need 👉
+Six phrases you hope you never need 👉
 
-盗まれました, 交番はどこですか, 被害届を出したいです. Japan is safe, and that is exactly why nobody learns these until the day they need them.
+盗まれました (nusumaremashita), 交番はどこですか (kouban wa doko desu ka), 被害届を出したいです (higaitodoke wo dashitai desu).
 
-We make Laifu, an app for daily (laifu) life. Every phrase carries romaji, audio, and a chat example.
+交番 (kouban) is the little police box on street corners, and this is exactly what it's for. Cards get frozen first, then you file the report, and 被害届 is the word that starts it. Worth reading once now instead of at the worst moment.
 
-📲 Download Laifu free on the App Store. Link in our bio.
+Pulled from Laifu, our app for daily (laifu) life ⚡. Phrases come with romaji, clear audio, and a short conversation, so the timing sticks too.
+
+📲 Laifu is free on the App Store. Link in our bio.
 
 Japanese for daily (laifu) life.
 
-#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #japantravel #travelsafety #japantrip #lifeinjapan #livinginjapan
+#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #japantravel #japantips #travelsafety #lifeinjapan

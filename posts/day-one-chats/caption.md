@@ -1,11 +1,13 @@
-Three conversations you'll have on day one in Japan 👉
+Three conversations you'll actually have on day one 👉
 
-Getting seated, asking a stranger to take your photo, admitting it's your first onsen. Not just your line, but what they say back, and how you answer that.
+Getting seated at a restaurant. Asking a stranger to take your photo. Walking into your first onsen.
 
-This is a little taste of Laifu, our app for daily (laifu) life ⚡. Every line has romaji, audio, and the full back-and-forth.
+Not phrases sitting on their own, full exchanges. This is the part textbooks skip: you learn the line, then freeze when the reply isn't the one from the book.
 
-📲 Download Laifu free on the App Store. Link in our bio.
+We make Laifu, an app for daily (laifu) life. Knowing the words is only half of it, so every phrase comes with romaji, audio, and a real conversation.
+
+📲 Laifu is free on the App Store. Link in our bio.
 
 Japanese for daily (laifu) life.
 
-#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #japantravel #japantrip #japaneseforbeginners #firsttimeinjapan #lifeinjapan
+#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #japaneseconversation #japaneseforbeginners #japantravel

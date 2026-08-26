@@ -1,11 +1,13 @@
-Your ramen order has settings. Most people never touch them 👉
+Ordering ramen exactly how you want it 👉
 
-麺固め, 濃いめ, 油少なめ, ネギ抜き. 7 phrases that turn a default bowl into the exact bowl you wanted.
+Most shops let you call the noodle firmness, the broth strength and the oil. 固めで (katame de) for firm noodles, 濃いめ (koime) for a stronger broth, 油少なめ (abura sukuname) to cut the fat back.
 
-Laifu is our app for daily (laifu) life. Romaji, audio, and a chat example on every phrase, so you know when to use it.
+You never have to customize anything. But once you know the words, you stop eating someone else's default.
 
-📲 Download Laifu free on the App Store. Link in our bio.
+Pulled from Laifu, our app for daily (laifu) life ⚡. Phrases come with romaji, clear audio, and a short conversation, so the timing sticks too.
+
+📲 Laifu is free on the App Store. Link in our bio.
 
 Japanese for daily (laifu) life.
 
-#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #ramen #ラーメン #japanfood #japantravel #tokyofood #lifeinjapan
+#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #ramen #ラーメン #japanfood #japanesefood
