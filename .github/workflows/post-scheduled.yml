@@ -5,6 +5,9 @@ name: Post Laifu carousel to Instagram
 on:
   schedule:
     - cron: "0 12 */2 * *"   # every other day, 21:00 JST
+    # 2026-10 だけ: 偶数日 16/18/20/22 にもアニメ・ライのリールを1本ずつ出すための追加 run。
+    # キュー側でその日の位置にリールの行を差し込んである。10/22 が済んだらこの行を消す（消さないと来年10月にも走る）。
+    - cron: "0 12 16,18,20,22 10 *"
   workflow_dispatch:
     inputs:
       dry_run:
