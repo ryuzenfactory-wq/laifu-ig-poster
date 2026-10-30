@@ -9,4 +9,4 @@ long version and people hear a textbook. Say the short one and they just start t
 
 Link in bio.
 
-#日本語 #learnjapanese #nihongo #jlpt #japanstudy #japaneselanguage #japaneseforbeginners
+#日本語 #learnjapanese #japaneseforbeginners #japanesephrases #nihongo

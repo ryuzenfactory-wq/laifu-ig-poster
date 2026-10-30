@@ -9,4 +9,4 @@ one, saved for places that care about being formal.
 
 Link in bio.
 
-#日本語 #learnjapanese #nihongo #jlpt #japanstudy #japaneselanguage #japanesephrases
+#日本語 #learnjapanese #japanesephrases #nihongo #studyjapanese

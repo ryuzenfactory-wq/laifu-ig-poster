@@ -10,4 +10,4 @@ Learn なま first. It is the one standing between you and a cold beer.
 
 Link in bio.
 
-#日本語 #learnjapanese #nihongo #jlpt #japanstudy #japaneselanguage #kanji #japanesekanji
+#日本語 #learnjapanese #kanji #japanesekanji #japanesephrases

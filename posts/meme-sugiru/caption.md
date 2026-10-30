@@ -11,4 +11,4 @@ Two different sentences. Learn that one on purpose.
 
 Link in bio.
 
-#日本語 #learnjapanese #nihongo #jlpt #japanstudy #japaneselanguage #japanesegrammar
+#日本語 #learnjapanese #japanesegrammar #japanesephrases #nihongo

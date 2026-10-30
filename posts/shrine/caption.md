@@ -10,4 +10,4 @@ We make Laifu, an app for daily (laifu) life. Knowing the words is only half of 
 
 Japanese for daily (laifu) life.
 
-#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #shrine #jinja #japanculture #japantravel
+#日本語 #learnjapanese #shrine #jinja #japanculture

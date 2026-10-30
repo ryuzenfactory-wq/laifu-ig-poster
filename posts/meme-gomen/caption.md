@@ -10,4 +10,4 @@ Use 申し訳ありません for a bumped shoulder and everyone gets uncomfortab
 
 すみません is the safe default. Link in bio.
 
-#日本語 #learnjapanese #nihongo #jlpt #japanstudy #japaneselanguage #japanesephrases
+#日本語 #learnjapanese #japanesephrases #nihongo #studyjapanese

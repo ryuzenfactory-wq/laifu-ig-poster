@@ -8,4 +8,4 @@ We make Laifu, an app for daily (laifu) life. Real phrases and chat-style exampl
 
 Japanese for daily (laifu) life.
 
-#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #japaneseslang #japanesememes #studyjapanese #japaneseconversation #日本語勉強
+#日本語 #learnjapanese #japaneseslang #japanesememes #japaneseconversation

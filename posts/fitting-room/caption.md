@@ -10,4 +10,4 @@ Laifu is our app for daily (laifu) life. Every phrase in it carries romaji, audi
 
 Japanese for daily (laifu) life.
 
-#日本語 #learnjapanese #japanesephrases #studyjapanese #nihongo #japanlife #japaneselanguage #japanshopping #shoppinginjapan #japanfashion
+#日本語 #learnjapanese #japanshopping #shoppinginjapan #japanfashion

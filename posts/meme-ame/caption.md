@@ -9,4 +9,4 @@ Context carries most of it. The pitch is the last five percent.
 
 Link in bio.
 
-#日本語 #learnjapanese #nihongo #jlpt #japanstudy #japaneselanguage #japanesevocabulary #pitchaccent
+#日本語 #learnjapanese #japanesevocabulary #pitchaccent #japanesephrases

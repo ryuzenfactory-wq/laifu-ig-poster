@@ -7,4 +7,4 @@ Same word every time. The situation decides which one it is, exactly like すみ
 
 If you work in Japan you will hear it forty times a day. Link in bio.
 
-#日本語 #learnjapanese #nihongo #jlpt #japanstudy #japaneselanguage #japaneseworkplace #japanesephrases
+#日本語 #learnjapanese #japaneseworkplace #japanesephrases #nihongo
